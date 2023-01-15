@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+
+<body class="container">
+
+    <div class="jumbotron jumbotron-fluid" style="background:#aaa;">
+        <h1 class="text-center"> <span>Complete the Form Below</span> </h1>
+    </div>
+    <div class="container-md mt-5">
+
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">First Name</label>
+
+                <input type="text" class="form-control" id=firstName" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastname" required>
+            </div>
+
+            <div class="col-md-8">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" if="email" required>
+            </div>
+
+            <div class="col-md-4">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="text" class="form-control" id="phone" placeholder="+27 011 954-2345">
+            </div>
+
+            <div class="col-md-12">
+                <label for="comments" class="form-label">Comments or questions ? </label>
+                <textarea type="text" class="form-control" id="comments" rows="3" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+        </form>
+
+        <p class="mt-5 text-center"><a href="./index.html"><span class="back">Back</span></a></p>
+    </div>
+
+
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
